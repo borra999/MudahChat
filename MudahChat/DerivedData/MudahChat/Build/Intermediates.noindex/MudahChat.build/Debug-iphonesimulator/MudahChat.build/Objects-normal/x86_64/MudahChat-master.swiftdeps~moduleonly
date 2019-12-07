@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
-options: "b137be48f3d35ac083566577f79cc3a9"
-build_time: [1575713654, 548608000]
-inputs:
-  "/Users/saravanan/Downloads/MudahChat/MudahChat/ViewController.swift": [1574821737, 0]
-  "/Users/saravanan/Downloads/MudahChat/MudahChat/AppDelegate.swift": !dirty [1574821737, 0]
-  "/Users/saravanan/Downloads/MudahChat/MudahChat/SceneDelegate.swift": !dirty [1574821737, 0]
