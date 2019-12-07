@@ -1,0 +1,6 @@
+framework module Pods_MudahChatTests {
+  umbrella header "Pods-MudahChatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

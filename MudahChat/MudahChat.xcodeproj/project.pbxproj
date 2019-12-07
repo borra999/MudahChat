@@ -15,6 +15,9 @@
 		4C98B36B238E16ED00743D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C98B369238E16ED00743D83 /* LaunchScreen.storyboard */; };
 		4C98B376238E16ED00743D83 /* MudahChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B375238E16ED00743D83 /* MudahChatTests.swift */; };
 		4C98B381238E16ED00743D83 /* MudahChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B380238E16ED00743D83 /* MudahChatUITests.swift */; };
+		76329094A144DFFEEF21123B /* Pods_MudahChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F4FEDC17B5813D436514F4 /* Pods_MudahChatUITests.framework */; };
+		C9A004FE8804E5640F8D9A9A /* Pods_MudahChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447DDB9C6A5FE33C008C310C /* Pods_MudahChatTests.framework */; };
+		F27EA063CC764F22DE8DBE09 /* Pods_MudahChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4870090776DEDDDC8E2A313C /* Pods_MudahChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B672997C9CCE9A856E8FD76 /* Pods-MudahChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MudahChatTests.debug.xcconfig"; path = "Target Support Files/Pods-MudahChatTests/Pods-MudahChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2546C3BB86739DC3C688A500 /* Pods-MudahChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MudahChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-MudahChatUITests/Pods-MudahChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42F4FEDC17B5813D436514F4 /* Pods_MudahChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MudahChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447DDB9C6A5FE33C008C310C /* Pods_MudahChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MudahChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4870090776DEDDDC8E2A313C /* Pods_MudahChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MudahChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C98B35B238E16E900743D83 /* MudahChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MudahChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C98B35E238E16E900743D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C98B360238E16E900743D83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		4C98B37C238E16ED00743D83 /* MudahChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MudahChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C98B380238E16ED00743D83 /* MudahChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MudahChatUITests.swift; sourceTree = "<group>"; };
 		4C98B382238E16ED00743D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D644D423BB0B8F04457230 /* Pods-MudahChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MudahChat.release.xcconfig"; path = "Target Support Files/Pods-MudahChat/Pods-MudahChat.release.xcconfig"; sourceTree = "<group>"; };
+		55DFF5508A1ACE77172E84ED /* Pods-MudahChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MudahChat.debug.xcconfig"; path = "Target Support Files/Pods-MudahChat/Pods-MudahChat.debug.xcconfig"; sourceTree = "<group>"; };
+		6311BA18DC191940542FEE73 /* Pods-MudahChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MudahChatUITests.release.xcconfig"; path = "Target Support Files/Pods-MudahChatUITests/Pods-MudahChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C292AB515D9AD49D9F8B4964 /* Pods-MudahChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MudahChatTests.release.xcconfig"; path = "Target Support Files/Pods-MudahChatTests/Pods-MudahChatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27EA063CC764F22DE8DBE09 /* Pods_MudahChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A004FE8804E5640F8D9A9A /* Pods_MudahChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76329094A144DFFEEF21123B /* Pods_MudahChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				4C98B374238E16ED00743D83 /* MudahChatTests */,
 				4C98B37F238E16ED00743D83 /* MudahChatUITests */,
 				4C98B35C238E16E900743D83 /* Products */,
+				EAAC4F58C396704CBEBE30A5 /* Pods */,
+				B459C69423AF7B177B59B166 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = MudahChatUITests;
 			sourceTree = "<group>";
 		};
+		B459C69423AF7B177B59B166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4870090776DEDDDC8E2A313C /* Pods_MudahChat.framework */,
+				447DDB9C6A5FE33C008C310C /* Pods_MudahChatTests.framework */,
+				42F4FEDC17B5813D436514F4 /* Pods_MudahChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAAC4F58C396704CBEBE30A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55DFF5508A1ACE77172E84ED /* Pods-MudahChat.debug.xcconfig */,
+				51D644D423BB0B8F04457230 /* Pods-MudahChat.release.xcconfig */,
+				0B672997C9CCE9A856E8FD76 /* Pods-MudahChatTests.debug.xcconfig */,
+				C292AB515D9AD49D9F8B4964 /* Pods-MudahChatTests.release.xcconfig */,
+				2546C3BB86739DC3C688A500 /* Pods-MudahChatUITests.debug.xcconfig */,
+				6311BA18DC191940542FEE73 /* Pods-MudahChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C98B385238E16ED00743D83 /* Build configuration list for PBXNativeTarget "MudahChat" */;
 			buildPhases = (
+				13CE18ED2A806A04582E9A8E /* [CP] Check Pods Manifest.lock */,
 				4C98B357238E16E900743D83 /* Sources */,
 				4C98B358238E16E900743D83 /* Frameworks */,
 				4C98B359238E16E900743D83 /* Resources */,
+				9D2FDED6DB87E09D5B7FB434 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C98B388238E16ED00743D83 /* Build configuration list for PBXNativeTarget "MudahChatTests" */;
 			buildPhases = (
+				28E79B2DEAC4143418450FF9 /* [CP] Check Pods Manifest.lock */,
 				4C98B36D238E16ED00743D83 /* Sources */,
 				4C98B36E238E16ED00743D83 /* Frameworks */,
 				4C98B36F238E16ED00743D83 /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C98B38B238E16ED00743D83 /* Build configuration list for PBXNativeTarget "MudahChatUITests" */;
 			buildPhases = (
+				02E4D9742ED137A0F0A4DF03 /* [CP] Check Pods Manifest.lock */,
 				4C98B378238E16ED00743D83 /* Sources */,
 				4C98B379238E16ED00743D83 /* Frameworks */,
 				4C98B37A238E16ED00743D83 /* Resources */,
@@ -253,6 +298,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E4D9742ED137A0F0A4DF03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MudahChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13CE18ED2A806A04582E9A8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MudahChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28E79B2DEAC4143418450FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MudahChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2FDED6DB87E09D5B7FB434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MudahChat/Pods-MudahChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MudahChat/Pods-MudahChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MudahChat/Pods-MudahChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C98B357238E16E900743D83 /* Sources */ = {
@@ -432,6 +563,7 @@
 		};
 		4C98B386238E16ED00743D83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DFF5508A1ACE77172E84ED /* Pods-MudahChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +583,7 @@
 		};
 		4C98B387238E16ED00743D83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D644D423BB0B8F04457230 /* Pods-MudahChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +603,7 @@
 		};
 		4C98B389238E16ED00743D83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B672997C9CCE9A856E8FD76 /* Pods-MudahChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +626,7 @@
 		};
 		4C98B38A238E16ED00743D83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C292AB515D9AD49D9F8B4964 /* Pods-MudahChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +649,7 @@
 		};
 		4C98B38C238E16ED00743D83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2546C3BB86739DC3C688A500 /* Pods-MudahChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +670,7 @@
 		};
 		4C98B38D238E16ED00743D83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6311BA18DC191940542FEE73 /* Pods-MudahChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
